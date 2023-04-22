@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"io"
 	"log"
 	"os"
@@ -10,7 +9,6 @@ import (
 
 func ReadFile() CashLs {
 	f, err := os.Open(file)
-	fmt.Println(file)
 	if err != nil {
 		log.Print(err)
 	}
