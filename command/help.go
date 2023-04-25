@@ -1,8 +1,8 @@
-package main
+package command
 
 import "fmt"
 
-func help() {
+func Help() {
 	fmt.Println("Usage:")
 	fmt.Println("   	`cash add 'your expense'` to register cost")
 	fmt.Println("   	`cash ls` to list your monthly cost")

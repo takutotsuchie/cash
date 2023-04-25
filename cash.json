@@ -1,6 +1,2 @@
-{
-  "cashlist": [
-    { "month": "2023-hey", "cash": 100 },
-    { "month": "2023-4", "cash": 0 }
-  ]
-}
+[
+{"month":"2023-4","cash":87}]

@@ -1,9 +1,6 @@
-package main
+package types
 
 type MonthCash struct {
 	Month string `json:"month"`
 	Cash  int    `json:"cash"`
-}
-type CashLs struct {
-	CashList []MonthCash `json:"cashlist"`
 }
