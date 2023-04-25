@@ -9,8 +9,7 @@ import (
 	"github.com/takutotsuchie/cash/types"
 )
 
-// var file = os.Getenv("cash_json")
-var file = ("./cash.json")
+var file = os.Getenv("cash_json")
 
 func ReadFile() []types.MonthCash {
 	f, err := os.Open(file)
